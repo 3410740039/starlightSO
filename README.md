@@ -1,8 +1,9 @@
 
 
 [toc]
+## 吞下星光
 
-## 模板特点
+## 使用初始化框架以及特点
 
 ### 主流框架 & 特性
 
@@ -78,8 +79,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my_db
-    username: root
-    password: 123456
+    username: mysql_username
+    password: mysql_password
 ```
 
 2）执行 `sql/create_table.sql` 中的数据库语句，自动创建库表
